@@ -9,7 +9,8 @@ import java.awt.event.WindowEvent;
 public class BorderLayoutDemo {
     public BorderLayoutDemo() {
         Frame f = new Frame("Layout Demo");
-        f.setLayout(new BorderLayout());
+//        f.setLayout(new BorderLayout());
+        f.setLayout(new BorderLayout(20, 10));
 
         Button b1 = new Button("1");
         Button b2 = new Button("2");
@@ -22,6 +23,7 @@ public class BorderLayoutDemo {
         f.add(b2, BorderLayout.EAST);
         f.add(b3, BorderLayout.WEST);
         f.add(b4, BorderLayout.NORTH);
+//        f.add(b5);
         f.add(b5, BorderLayout.SOUTH);
         f.setSize(400,400);
         f.setVisible(true);
