@@ -6,7 +6,8 @@ class MenuDemo
     MenuDemo(){
         Frame f= new Frame("Menu and MenuItem Example");
         MenuBar mb=new MenuBar();
-        Menu menu=new Menu("Menu",true);
+        Menu menu=new
+                Menu("Menu",true);
         Menu submenu=new Menu("Sub Menu",true);
         MenuItem i1=new MenuItem("Item 1");
         MenuItem i2=new MenuItem("Item 2");
