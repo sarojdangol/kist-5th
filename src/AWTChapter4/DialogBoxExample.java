@@ -14,10 +14,12 @@ public class DialogBoxExample {
         {
             public void actionPerformed( ActionEvent e )
             {
-                d1 = new Dialog(new Frame(), "Dialog Example", true );
+                d1 = new Dialog(new Frame(), "Dialog Example" );
                 d1.setLayout( new FlowLayout() );
                 d1.setSize(150,150);
                 d1.setVisible(true);
+                d1.setModal(false);
+
 //                d.setVisible(false);
             }
         });

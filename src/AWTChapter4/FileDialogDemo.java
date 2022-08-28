@@ -30,7 +30,7 @@ public class FileDialogDemo {
 
         });
 
-        FileDialog fd = new FileDialog(f, "File Dialog",FileDialog.LOAD);
+        FileDialog fd = new FileDialog(f, "File Dialog",FileDialog.SAVE);
 
         fd.setVisible(true);
 
