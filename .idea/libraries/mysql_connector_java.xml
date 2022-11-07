@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

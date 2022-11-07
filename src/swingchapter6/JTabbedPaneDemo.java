@@ -25,6 +25,7 @@ public class JTabbedPaneDemo {
     }
 
     public static void main(String[] args) {
+
         new JTabbedPaneDemo();
     }
 
